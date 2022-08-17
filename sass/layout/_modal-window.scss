@@ -39,9 +39,7 @@
     top: 8px;
     right: 8px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@extend %align;
 
     width: 30px;
     height: 30px;
@@ -150,9 +148,7 @@
 
 
 .modal-form-checkbox-desc {
-    display: flex;
-    align-items: center;
-    align-self: center;
+@extend %align;
     margin-top: 20px;
     margin-bottom: 30px;
     &::before {

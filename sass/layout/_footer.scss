@@ -67,9 +67,7 @@
     margin-right: 10px;
 }
 .social-footer-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@extend %align;
     width: 44px;
     height: 44px;
     color: var(--primary-white-color);
@@ -110,10 +108,8 @@
     color: rgba(255, 255, 255, 0.9);
 }
 .email-form__button {
-    display: flex;
+  @extend %align;
     padding: 10px 28px;
-    justify-content: center;
-    align-items: center;
 }
 
 .email-form__button-icon {

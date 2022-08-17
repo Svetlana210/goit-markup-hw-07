@@ -26,6 +26,12 @@
   overflow: hidden;
 }
 
+.modal-form-checkbox-desc, .modal-button, .email-form__button, .social-footer-list__link, .clients-link, .team-icon-link, .work-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
@@ -317,9 +323,6 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -384,9 +387,6 @@ button {
 }
 
 .team-icon-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -411,11 +411,8 @@ button {
 }
 
 .clients-link {
-  display: flex;
   width: 170px;
   height: 92px;
-  justify-content: center;
-  align-items: center;
   border: 1px solid var(--icons-color);
   border-radius: 4px;
   color: var(--icons-color);
@@ -559,9 +556,6 @@ button {
 }
 
 .social-footer-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   color: var(--primary-white-color);
@@ -600,10 +594,7 @@ button {
 }
 
 .email-form__button {
-  display: flex;
   padding: 10px 28px;
-  justify-content: center;
-  align-items: center;
 }
 
 .email-form__button-icon {
@@ -650,9 +641,6 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30px;
   height: 30px;
   padding: 0;
@@ -753,9 +741,6 @@ button {
 }
 
 .modal-form-checkbox-desc {
-  display: flex;
-  align-items: center;
-  align-self: center;
   margin-top: 20px;
   margin-bottom: 30px;
 }
