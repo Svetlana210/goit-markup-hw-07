@@ -13,13 +13,13 @@
     color: var(--icons-color);
 
     transition: color var(--transition-dur-cub), border-color var(--transition-dur-cub);
-}
-
-.clients-link:hover,
-.clients-link:focus {
+&:hover,
+&:focus {
     color: var(--accent-text-color);
     border-color: var(--accent-text-color);
+    }
 }
+
 
 .clients-icon {
     fill: currentColor;

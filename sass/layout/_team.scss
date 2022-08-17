@@ -57,13 +57,14 @@
     color: var(--icons-color);
 
     transition: color var(--transition-dur-cub), background-color var(--transition-dur-cub);
+&:hover,
+   &:focus {
+        background-color: var(--accent-text-color);
+        color: var(--primary-white-color);
+    }
 }
 
-.team-icon-link:hover,
-.team-icon-link:focus {
-    background-color: var(--accent-text-color);
-    color: var(--primary-white-color);
-}
+
 
 .team-icon {
     fill: currentColor;

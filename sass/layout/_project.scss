@@ -12,13 +12,14 @@
     display: block;
 
     transition: box-shadow var(--transition-dur-cub);
+    &:hover,
+        &:focus {
+            box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06),
+                0 1px 1px rgba(0, 0, 0, 0.12);
+        }
 }
 
-.project__link:hover,
-.project__link:focus {
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06),
-        0 1px 1px rgba(0, 0, 0, 0.12);
-}
+
 
 .project__title {
     margin-bottom: 4px;
@@ -58,9 +59,9 @@
     line-height: 1.56;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
+    .project__link:hover &,
+        .project__link:focus & {
+            transform: translateY(0);
+        }
 }
 
-.project__link:hover .project__overlay,
-.project__link:focus .project__overlay {
-    transform: translateY(0);
-}

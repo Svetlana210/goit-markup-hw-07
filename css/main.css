@@ -93,7 +93,6 @@ button {
   cursor: pointer;
   transition: box-shadow var(--transition-dur-cub), background-color var(--transition-dur-cub);
 }
-
 .button:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -144,9 +143,7 @@ button {
   cursor: pointer;
   transition: color var(--transition-dur-cub), background-color var(--transition-dur-cub), box-shadow var(--transition-dur-cub);
 }
-
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -189,16 +186,13 @@ button {
   letter-spacing: 0.02em;
   transition: color var(--transition-dur-cub);
 }
-
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-text-color);
 }
 
 .nav-link.current {
   color: var(--accent-text-color);
 }
-
 .nav-link.current::after {
   content: "";
   position: absolute;
@@ -226,9 +220,7 @@ button {
   letter-spacing: 0.02em;
   transition: color var(--transition-dur-cub);
 }
-
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -401,9 +393,7 @@ button {
   color: var(--icons-color);
   transition: color var(--transition-dur-cub), background-color var(--transition-dur-cub);
 }
-
-.team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon-link:hover, .team-icon-link:focus {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
 }
@@ -431,9 +421,7 @@ button {
   color: var(--icons-color);
   transition: color var(--transition-dur-cub), border-color var(--transition-dur-cub);
 }
-
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover, .clients-link:focus {
   color: var(--accent-text-color);
   border-color: var(--accent-text-color);
 }
@@ -461,9 +449,7 @@ button {
   display: block;
   transition: box-shadow var(--transition-dur-cub);
 }
-
-.project__link:hover,
-.project__link:focus {
+.project__link:hover, .project__link:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.12);
 }
 
@@ -503,9 +489,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-
-.project__link:hover .project__overlay,
-.project__link:focus .project__overlay {
+.project__link:hover .project__overlay, .project__link:focus .project__overlay {
   transform: translateY(0);
 }
 
@@ -533,9 +517,7 @@ button {
   color: var(--primary-white-color);
   transition: color var(--transition-dur-cub);
 }
-
-.address__link_white:hover,
-.address__link_white:focus {
+.address__link_white:hover, .address__link_white:focus {
   color: var(--accent-text-color);
 }
 
@@ -543,9 +525,7 @@ button {
   color: var(--footer-contacts-color);
   transition: color var(--transition-dur-cub);
 }
-
-.address__link_grey:hover,
-.address__link_grey:focus {
+.address__link_grey:hover, .address__link_grey:focus {
   color: var(--accent-text-color);
 }
 
@@ -589,9 +569,7 @@ button {
   border-radius: 50%;
   transition: background-color var(--transition-dur-cub);
 }
-
-.social-footer-list__link:hover,
-.social-footer-list__link:focus {
+.social-footer-list__link:hover, .social-footer-list__link:focus {
   background-color: var(--accent-text-color);
 }
 
@@ -644,7 +622,6 @@ button {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity var(--transition-dur-cub), visibility var(--transition-dur-cub);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -685,9 +662,7 @@ button {
   border-radius: 50%;
   transition: fill var(--transition-dur-cub);
 }
-
-.modal-button:hover,
-.modal-button:focus .modal-button-icon {
+.modal-button:hover .modal-button-icon, .modal-button:focus .modal-button-icon {
   fill: var(--accent-text-color);
 }
 
@@ -728,7 +703,6 @@ button {
   border-radius: 4px;
   transition: border-color var(--transition-dur-cub);
 }
-
 .modal-form-input:focus {
   border-color: rgb(33, 150, 243);
   outline: none;
@@ -744,12 +718,10 @@ button {
   resize: none;
   transition: border-color var(--transition-dur-cub);
 }
-
 .modal-form-comment:focus {
   border-color: rgb(33, 150, 243);
   outline: none;
 }
-
 .modal-form-comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
@@ -776,7 +748,6 @@ button {
   fill: #000000;
   transition: fill var(--transition-dur-cub);
 }
-
 .modal-form-input:focus + .modal-form-input-icon {
   fill: rgb(33, 150, 243);
 }
@@ -788,7 +759,6 @@ button {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-
 .modal-form-checkbox-desc::before {
   display: block;
   content: "";
@@ -799,7 +769,6 @@ button {
   cursor: pointer;
   transition: background-image var(--transition-dur-cub);
 }
-
 .modal-form-checkbox:checked + .modal-form-checkbox-desc::before {
   background-image: url(../images/main-page/check.svg);
 }
